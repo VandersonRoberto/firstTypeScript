@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "outDir": "app/js",
+        "noEmitOnError": true,
+        "noImplicitAny": true,
+        "removeComments": true,
+        "module":"System", //definição do loader usando para carregar os modos e facilitar a declaração em index.html e resolver dependencias 
+        "strictNullChecks": true, //Bloqueia atribuicao de NULL e undefined em objetos
+        "experimentalDecorators": true
+    },
+    "include": [
+        "app/ts/**/*"
+    ]
+}
